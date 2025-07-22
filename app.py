@@ -37,11 +37,18 @@ class MainApp:
         self.right_column = RightColumn()
 
     def run(self):
-        st.set_page_config(page_title=AppConfig.APP_HEADER["TITLE"], layout="wide")
+        self.set_page_config()
 
         self.left_sidebar.render()
-
         self.right_column.render()
+
+    def set_page_config(self):
+        st.set_page_config(
+            page_title=AppConfig.APP_HEADER["TITLE"],
+            layout="wide",
+            initial_sidebar_state="expanded",
+            page_icon=":mag_right:"
+        )
 
 if __name__ == "__main__":
     app = MainApp()

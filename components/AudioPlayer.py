@@ -7,7 +7,7 @@ class AudioPlayer:
     @staticmethod
     def render(text: str, lang: str = "vi"):
         if not text.strip():
-            st.warning("Không có nội dung để đọc.")
+            st.warning("Không có nội dung để đọc!")
             return
 
         audio_path = None
@@ -22,7 +22,7 @@ class AudioPlayer:
                 st.audio(audio_bytes, format="audio/mp3", autoplay=True)
 
         except Exception as e:
-            st.error(f"Lỗi phát giọng nói")
+            st.error(f"Lỗi phát giọng nói!")
         finally:
             if audio_path and os.path.exists(audio_path):
                 os.remove(audio_path)

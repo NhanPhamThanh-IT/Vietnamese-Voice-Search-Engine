@@ -1,4 +1,5 @@
 import streamlit as st
+from settings import AppConfig
 
 class LeftSidebar:
     @staticmethod
