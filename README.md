@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <div align="center">🔍 Voice Search Engine - Trợ Lý Tìm Kiếm Tin Tức Bằng Giọng Nói</div>
+# <div align="center">🔍 Vietnamese Voice Search Engine - Trợ Lý Tìm Kiếm Tin Tức Bằng Giọng Nói Cho Người Việt</div>
 
 <div align="center">
 
@@ -26,7 +26,7 @@
 
 ## 🌟 Giới Thiệu
 
-**Voice Search Engine** là một ứng dụng web hiện đại được phát triển bằng Streamlit, cho phép người dùng tìm kiếm tin tức bằng giọng nói và nghe kết quả được tóm tắt qua công nghệ text-to-speech. Đây là giải pháp hoàn hảo cho những ai muốn cập nhật tin tức nhanh chóng mà không cần đọc.
+**Vietnamese Voice Search Engine** là một ứng dụng web hiện đại được phát triển bằng Streamlit, cho phép người dùng tìm kiếm tin tức bằng giọng nói và nghe kết quả được tóm tắt qua công nghệ text-to-speech. Đây là giải pháp hoàn hảo cho những ai muốn cập nhật tin tức nhanh chóng mà không cần đọc.
 
 ### 🎯 Mục Tiêu Dự Án
 
@@ -471,7 +471,7 @@ copies or substantial portions of the Software.
 
 **📞 Liên hệ**: ptnhanit230104@gmail.com | **🏫**: Trường ĐH Khoa học Tự nhiên - ĐHQG-HCM
 
-**Được phát triển với ❤️ bởi nhóm Voice Search Engine Team**
+**Được phát triển với ❤️ bởi nhóm Vietnamese Voice Search Engine Team**
 
 </div>
 
