@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org) [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Vietnamese](https://img.shields.io/badge/Language-Vietnamese-green.svg)](https://en.wikipedia.org/wiki/Vietnamese_language)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org) [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Vietnamese](https://img.shields.io/badge/Language-Vietnamese-green.svg)](https://en.wikipedia.org/wiki/Vietnamese_language) [![GitHub stars](https://img.shields.io/github/stars/NhanPhamThanh-IT/Voice-Search-Engine?style=social)](https://github.com/NhanPhamThanh-IT/Voice-Search-Engine/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NhanPhamThanh-IT/Voice-Search-Engine?style=social)](https://github.com/NhanPhamThanh-IT/Voice-Search-Engine/network/members) [![GitHub issues](https://img.shields.io/github/issues/NhanPhamThanh-IT/Voice-Search-Engine)](https://github.com/NhanPhamThanh-IT/Voice-Search-Engine/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/NhanPhamThanh-IT/Voice-Search-Engine)](https://github.com/NhanPhamThanh-IT/Voice-Search-Engine/pulls)
 
 </div>
 
