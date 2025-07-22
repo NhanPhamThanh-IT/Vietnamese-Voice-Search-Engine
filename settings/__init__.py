@@ -1,3 +1,4 @@
 from .ThemeManager import ThemeManager
+from .AppConfig import AppConfig
 
-__all__ = ["ThemeManager"]
+__all__ = ["ThemeManager", "AppConfig"]

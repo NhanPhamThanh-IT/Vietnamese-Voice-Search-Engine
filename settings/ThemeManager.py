@@ -19,4 +19,4 @@ class ThemeManager:
                 css = f.read()
             st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
         else:
-            raise FileNotFoundError(f"CSS file {file_path} not found.")
+            raise FileNotFoundError(f"Không tìm thấy file CSS {file_path}.")

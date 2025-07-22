@@ -4,7 +4,7 @@ from newspaper import Article
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
-from config import SERPER_API_KEY
+from settings import AppConfig
 
 class Scrapper:
     @staticmethod
@@ -23,7 +23,7 @@ class Scrapper:
     def get_serper_news(query: str, location: str = "Vietnam", gl: str = "vn", hl: str = "vi") -> str:
         url = "https://google.serper.dev/news"
         headers = {
-            'X-API-KEY': SERPER_API_KEY,
+            'X-API-KEY': AppConfig.SERPER_API_KEY,
             'Content-Type': 'application/json'
         }
         payload = json.dumps({
@@ -66,7 +66,7 @@ class Scrapper:
             full_text = Scrapper.get_article_text(url)
             return Scrapper.summarize_text(full_text, sentences_count)
         except Exception as e:
-            return f"Error: {e}"
+            return f"Lỗi: {e}"
 
     def preprocess_text(text: str) -> str:
         text = text.replace("\n", " ").replace("\r", " ").strip()
