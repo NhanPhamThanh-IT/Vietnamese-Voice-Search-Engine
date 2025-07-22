@@ -23,13 +23,24 @@ class RightColumn:
         query = AudioRecorder.render()
 
         if query:
-            AudioPlayer.render("Đang tìm kiếm thông tin...")
-            response = Scrapper.get_serper_news(query)
-            if isinstance(response, requests.Response):
-                url = Scrapper.get_url_from_response(response)
-                summary = Scrapper.summarize_from_url(url)
-                result = Scrapper.preprocess_text(summary)
-                AudioPlayer.render(result)
+            if "played_intro" not in st.session_state:
+                AudioPlayer.render("Bắt đầu xử lý...", state_key="played_intro")
+                return
+
+            if "played_result" not in st.session_state:
+                with st.spinner("Đang xử lý..."):
+                    response = Scrapper.get_serper_news(query)
+                    if isinstance(response, requests.Response):
+                        url = Scrapper.get_url_from_response(response)
+                        summary = Scrapper.summarize_from_url(url)
+                        result = Scrapper.preprocess_text(summary)
+                        AudioPlayer.render(result, state_key="played_result")
+                        return
+
+            else:
+                del st.session_state.played_intro
+                del st.session_state.played_result
+
 
 class MainApp:
     def __init__(self):
