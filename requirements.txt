@@ -7,3 +7,4 @@ newspaper3k>=0.2.8
 sumy>=0.11.0
 python-dotenv>=1.0.0
 pathlib2>=2.3.7
+lxml[html_clean]
